@@ -1,10 +1,10 @@
 ---
 development:
   dialect: postgres
-  database: example_development
-  user: postgres
-  password: postgres
-  host: 127.0.0.1
+  database: maratona
+  user: maratona
+  password: maratona
+  host: 0.0.0.0
   pool: 5
 
 test:
