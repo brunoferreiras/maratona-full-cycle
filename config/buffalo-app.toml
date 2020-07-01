@@ -1,7 +1,7 @@
-name = "example"
-bin = "bin/example"
-vcs = "git"
-with_pop = true
+name = "maratona-full-cycle"
+bin = "bin/maratona-full-cycle"
+vcs = "none"
+with_pop = false
 with_sqlite = false
 with_dep = false
 with_webpack = true

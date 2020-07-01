@@ -5,8 +5,8 @@ FROM gobuffalo/buffalo:v0.16.10 as builder
 ENV GO111MODULE on
 ENV GOPROXY http://proxy.golang.org
 
-RUN mkdir -p /src/example
-WORKDIR /src/example
+RUN mkdir -p /src/maratona-full-cycle
+WORKDIR /src/maratona-full-cycle
 
 # this will cache the npm install step, unless package.json changes
 ADD package.json .
